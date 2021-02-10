@@ -15,6 +15,11 @@ const App = () => {
       <div style={{ position: "relative" }} ref={body}>
         <Hero />
         <div className="container">
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/map">Map</Link>
+            <Link to="/game">Game</Link>
+          </nav>
           <Route exact path="/">
             <Home />
           </Route>
