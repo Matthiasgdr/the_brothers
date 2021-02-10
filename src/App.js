@@ -37,7 +37,9 @@ const App = () => {
             <Informations mapHover={mapHover} />
           </div>
         </div>
-        <div className="game_wrapper">{/* <Game /> */}</div>
+        <div className="game_wrapper">
+          <Game />
+        </div>
       </div>
     </div>
   );
