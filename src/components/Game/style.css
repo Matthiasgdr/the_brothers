@@ -1,0 +1,31 @@
+.game {
+  position: relative;
+}
+
+.progress_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progress_container .progress_bar_wrapper {
+  position: relative;
+  height: 20px;
+  width: 90%;
+}
+
+.progress_container .progress_bar_wrapper .progress_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: darkred;
+  transition: width 1s;
+}

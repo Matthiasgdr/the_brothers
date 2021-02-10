@@ -1,0 +1,12 @@
+path,
+circle {
+  fill: transparent;
+  transition: all 0.3s;
+}
+
+g:hover {
+  path,
+  circle {
+    fill: rgba(111, 20, 20, 0.351);
+  }
+}
