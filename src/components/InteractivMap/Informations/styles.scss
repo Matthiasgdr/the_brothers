@@ -31,7 +31,7 @@
       text-align: center;
     }
     .img_wrapper {
-      padding: 10px;
+      padding: 10px 10px 30px 10px;
       .image {
         background-size: cover;
         height: 400px;
@@ -41,8 +41,14 @@
   }
   .close {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 20px;
     right: 20px;
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
   }
 }
 

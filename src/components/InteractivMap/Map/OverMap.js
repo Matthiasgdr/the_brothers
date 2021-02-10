@@ -9,7 +9,7 @@ const OverMap = ({ setMapClick, setMapHover }) => {
     <>
       <defs>
         <filter id="f1" x="0" y="0">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
         </filter>
       </defs>
       <g

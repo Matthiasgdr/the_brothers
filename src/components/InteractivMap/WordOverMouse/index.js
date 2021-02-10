@@ -15,6 +15,7 @@ const WordOverMouse = ({ mapHover, body, position }) => {
     lac: "Pineslake",
     casse: "Casse de PinesWood",
   };
+
   return mapHover && body.current
     ? ReactDOM.createPortal(
         <div
@@ -28,6 +29,10 @@ const WordOverMouse = ({ mapHover, body, position }) => {
     : null;
 };
 
-WordOverMouse.propTypes = {};
+WordOverMouse.propTypes = {
+  mapHover: PropTypes.string.isRequired,
+  body: PropTypes.object.isRequired,
+  position: PropTypes.object.isRequired,
+};
 
 export default WordOverMouse;

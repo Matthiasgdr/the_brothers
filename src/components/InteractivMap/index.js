@@ -1,31 +1,32 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
+import Informations from "./Informations";
+import Map from "./Map";
 import "./style.css";
-import WordOverMouse from "./WordOverMouse";
-import UnderMap from "./UnderMap";
-import OverMap from "./OverMap";
 
-const InteractivMap = ({ setMapClick, setMapHover, mapHover, body }) => {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-
-  const mouseMove = (e) => {
-    setPosition({ x: e.pageX, y: e.pageY });
-  };
-
+const InteractiveMap = ({ body }) => {
+  const [mapClick, setMapClick] = useState("");
+  const [mapHover, setMapHover] = useState("");
   return (
-    <>
-      <WordOverMouse mapHover={mapHover} body={body} position={position} />
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1077.15 1077.15"
-        onMouseMove={(e) => mouseMove(e)}
+    <div className="map_container">
+      <div
+        className="map_wrapper"
+        style={{
+          transform: mapClick ? "translateX(-10vw)" : "translateX(0)",
+        }}
       >
-        <UnderMap />
-        <OverMap setMapClick={setMapClick} setMapHover={setMapHover} />
-      </svg>
-    </>
+        <Map
+          setMapClick={setMapClick}
+          setMapHover={setMapHover}
+          mapHover={mapHover}
+          body={body}
+        />
+      </div>
+      <Informations setMapClick={setMapClick} mapClick={mapClick} />
+    </div>
   );
 };
 
-InteractivMap.propTypes = {};
+InteractiveMap.propTypes = {};
 
-export default InteractivMap;
+export default InteractiveMap;

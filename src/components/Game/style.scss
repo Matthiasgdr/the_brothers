@@ -1,5 +1,6 @@
 .game {
   position: relative;
+  font-family: "Bellefair";
 }
 
 .progress_container {
@@ -13,8 +14,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  .logo {
+    height: 500px;
+  }
   .progress_bar_wrapper {
     position: relative;
+    margin-bottom: 12px;
     height: 20px;
     width: 90%;
     .progress_bar {

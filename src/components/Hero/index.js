@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "./style.css";
+import logo from "./hero_images/logo.png";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -15,12 +17,14 @@ const Hero = () => {
 
   return (
     <div className="hero_container">
-      <div
+      <img
         className="logo"
+        src={logo}
+        alt="The Brothers"
         style={{
-          transform: `translate(-50%, -50%) translateY(${scrollY / 3 - 150}px)`,
+          transform: `translate(-50%, -50%) translateY(${scrollY / 2 - 150}px)`,
         }}
-      ></div>
+      />
       <div className="trees trees_1"></div>
       <div
         className="trees trees_2"
