@@ -3,5 +3,35 @@
 		"title": "Pine Forest",
 		"description": "Forêt dense et mystérieuse qui entoure Pine Grove et le lac Midroc. Il est fortement déconseillé par les habitants du coin de s’y aventurer, car il est presque impossible de retrouver son chemin avec le brouillard intense qui y règne.",
 		"image": null
+	},
+	"pineswood": {
+		"title": "PinesWood",
+		"description": "Pineswood est un petit village d’environ 1500 habitants qui regroupe la plupart des commerces de la zone. C’est notamment ici que sont regroupées les entités de police et journalistique principales et que la majeure partie des activités et évènements sont organisés.",
+		"image": null
+	},
+	"pinegrove": {
+		"title": "PineGrove",
+		"description": "Pine Grove est une petite bourgade familiale de 300 habitants entourée d’une forêt dense et mystérieuse. C’est une petite annexe très excentrée du reste de la zone, avec très peu de passage et où tout le monde se connaît.",
+		"image": null
+	},
+	"casse": {
+		"title": "La casse",
+		"description": " La casse est l’endroit préféré des passionnés d’automobiles et de pièces détachées de Pine Grove. C’est un lieu avec très peu de passage et peu connu des habitants. C’est ici que les voitures accidentées sur les routes de Pine Grove finissent, lorsque les propriétaires ne sont pas en mesure de les récupérer.",
+		"image": null
+	},
+	"montagne": {
+		"title": "La montagne de Midrock",
+		"description": "Les montagnes qui entourent Pine Grove sont surnommées “Les montagnes de la mort”, après que les excursions sur leurs pics aient été arrêtées car trop dangereuses. Désertes et dans le brouillard, elles instaurent aujourd’hui le côté inconfortable et lugubre de Pine Grove.",
+		"image": null
+	},
+	"lac": {
+		"title": "Le lac de Midrock",
+		"description": "Le lac de Midroc est entouré par la forêt de Pine Grove. La doyenne de Pine Grove raconte s’y être perdue une fois quand elle était petite et le décrit comme un endroit magnifique et paisible. C’est vraiment dommage de ne pas pouvoir y accéder pour vérifier...",
+		"image": null
+	},
+	"route": {
+		"title": "La route de PineGrove",
+		"description": "Située en flanc de montagne, la route de Pine Grove relie les deux villes. Elle est connue par les habitants des villes voisines comme étant une route très dangereuse, ou beaucoup d’accidents ont été rapportés. Vous pouvez consulter ce documentaire pour plus d’informations sur la route de Pine Grove.",
+		"image": null
 	}
 }
