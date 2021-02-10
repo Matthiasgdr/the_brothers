@@ -1,6 +1,6 @@
 {
 	"foret": {
-		"title": "Pine Forest",
+		"title": "La forêt de PineGrove",
 		"description": "Forêt dense et mystérieuse qui entoure Pine Grove et le lac Midroc. Il est fortement déconseillé par les habitants du coin de s’y aventurer, car il est presque impossible de retrouver son chemin avec le brouillard intense qui y règne.",
 		"image": null
 	},
@@ -25,13 +25,23 @@
 		"image": null
 	},
 	"lac": {
-		"title": "Le lac de Midrock",
-		"description": "Le lac de Midroc est entouré par la forêt de Pine Grove. La doyenne de Pine Grove raconte s’y être perdue une fois quand elle était petite et le décrit comme un endroit magnifique et paisible. C’est vraiment dommage de ne pas pouvoir y accéder pour vérifier...",
-		"image": null
+		"title": "Le Pines Lake",
+		"description": "Le lac de Pineslake est entouré par la forêt de Pine Grove. La doyenne de Pine Grove raconte s’y être perdue une fois quand elle était petite et le décrit comme un endroit magnifique et paisible. C’est vraiment dommage de ne pas pouvoir y accéder pour vérifier...",
+		"image": "lake"
 	},
 	"route": {
 		"title": "La route de PineGrove",
 		"description": "Située en flanc de montagne, la route de Pine Grove relie les deux villes. Elle est connue par les habitants des villes voisines comme étant une route très dangereuse, ou beaucoup d’accidents ont été rapportés. Vous pouvez consulter ce documentaire pour plus d’informations sur la route de Pine Grove.",
 		"image": null
+	},
+	"dinner": {
+		"title": "Le dinner de PinesWood",
+		"description": "",
+		"image": "dinner"
+	},
+	"police": {
+		"title": "Le sheriff de PinesWood",
+		"description": "",
+		"image": "police"
 	}
 }

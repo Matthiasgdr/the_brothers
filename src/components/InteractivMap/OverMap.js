@@ -1,14 +1,23 @@
 import React from "react";
 
-const OverMap = () => {
+const OverMap = ({ setMapClick, setMapHover }) => {
+  const clearHover = () => {
+    setMapHover("");
+  };
+
   return (
     <>
       <defs>
         <filter id="f1" x="0" y="0">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+          <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
         </filter>
       </defs>
-      <g id="police">
+      <g
+        onClick={() => setMapClick("police")}
+        onMouseEnter={() => setMapHover("police")}
+        onMouseLeave={() => clearHover()}
+        id="police"
+      >
         <circle
           className="cls-1"
           filter="url(#f1)"
@@ -17,7 +26,12 @@ const OverMap = () => {
           r="34.51"
         />
       </g>
-      <g id="dinner">
+      <g
+        onClick={() => setMapClick("dinner")}
+        onMouseEnter={() => setMapHover("dinner")}
+        onMouseLeave={() => clearHover()}
+        id="dinner"
+      >
         <circle
           className="cls-1"
           filter="url(#f1)"
@@ -26,7 +40,12 @@ const OverMap = () => {
           r="32.56"
         />
       </g>
-      <g id="foret">
+      <g
+        onClick={() => setMapClick("foret")}
+        onMouseEnter={() => setMapHover("foret")}
+        onMouseLeave={() => clearHover()}
+        id="foret"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"
@@ -46,7 +65,12 @@ const OverMap = () => {
           transform="translate(0)"
         />
       </g>
-      <g id="route">
+      <g
+        onClick={() => setMapClick("route")}
+        onMouseEnter={() => setMapHover("route")}
+        onMouseLeave={() => clearHover()}
+        id="route"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"
@@ -54,7 +78,12 @@ const OverMap = () => {
           transform="translate(0)"
         />
       </g>
-      <g id="casse">
+      <g
+        onClick={() => setMapClick("casse")}
+        onMouseEnter={() => setMapHover("casse")}
+        onMouseLeave={() => clearHover()}
+        id="casse"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"
@@ -62,7 +91,12 @@ const OverMap = () => {
           transform="translate(0)"
         />
       </g>
-      <g id="lac">
+      <g
+        onClick={() => setMapClick("lac")}
+        onMouseEnter={() => setMapHover("lac")}
+        onMouseLeave={() => clearHover()}
+        id="lac"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"
@@ -70,7 +104,12 @@ const OverMap = () => {
           transform="translate(0)"
         />
       </g>
-      <g id="montagne">
+      <g
+        onClick={() => setMapClick("montagne")}
+        onMouseEnter={() => setMapHover("montagne")}
+        onMouseLeave={() => clearHover()}
+        id="montagne"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"
@@ -84,7 +123,12 @@ const OverMap = () => {
           transform="translate(0)"
         />
       </g>
-      <g id="pinegrove">
+      <g
+        onClick={() => setMapClick("pinegrove")}
+        onMouseEnter={() => setMapHover("pinegrove")}
+        onMouseLeave={() => clearHover()}
+        id="pinegrove"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"
@@ -92,7 +136,12 @@ const OverMap = () => {
           transform="translate(0)"
         />
       </g>
-      <g id="pineswood">
+      <g
+        onClick={() => setMapClick("pineswood")}
+        onMouseEnter={() => setMapHover("pineswood")}
+        onMouseLeave={() => clearHover()}
+        id="pineswood"
+      >
         <path
           className="cls-1"
           filter="url(#f1)"

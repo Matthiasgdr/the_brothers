@@ -4,7 +4,7 @@ import UnityContent from "../../utils/unityContent";
 
 import "./style.css";
 
-const Game = () => {
+const Game = React.memo(() => {
   const [loading, setLoading] = useState(0);
 
   UnityContent.on("progress", (progression) => {
@@ -24,6 +24,6 @@ const Game = () => {
       <Unity unityContent={UnityContent} />
     </div>
   );
-};
+});
 
 export default Game;

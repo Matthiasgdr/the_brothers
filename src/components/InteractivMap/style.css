@@ -1,6 +1,7 @@
 path,
 circle {
   fill: transparent;
+  cursor: pointer;
   transition: all 0.3s;
 }
 
