@@ -1,3 +1,7 @@
 {
-	"foret": "Hello"
+	"foret": {
+		"title": "Pine Forest",
+		"description": "Forêt dense et mystérieuse qui entoure Pine Grove et le lac Midroc. Il est fortement déconseillé par les habitants du coin de s’y aventurer, car il est presque impossible de retrouver son chemin avec le brouillard intense qui y règne.",
+		"image": null
+	}
 }
